@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cuentakm</string>
+    <string name="tituloTiempo">Tiempo:</string>
+    <string name="tDist">Distancia (m):</string>
+    <string name="tVel">Velocidad (min/km):</string>
+    <string name="bIni">Iniciar</string>
+    <string name="bFin">Detener</string>
+    <string name="creditos">Sergio Iserte - 2011</string>
+    <string name="tVelUlt">Último km (min):</string>
+</resources>

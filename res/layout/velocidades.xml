@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<Button android:id="@+id/bStart" android:layout_width="fill_parent"
+		android:layout_height="0dp" android:layout_weight="2" android:text="@string/bIni"
+		android:layout_margin="15dp" android:textSize="40dp" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="0dp" android:layout_weight="1"
+		android:orientation="vertical">
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginLeft="15dp">
+			<TextView android:id="@+id/tDist" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/tDist"
+				style="@style/titulo" />
+			<TextView android:id="@+id/rDist" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="0" 
+				style="@style/resultado"/>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginLeft="15dp">
+			<TextView android:id="@+id/tVel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/tVel"
+				style="@style/titulo" />
+
+			<TextView android:id="@+id/rVel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="0" 
+				style="@style/resultado"/>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_marginLeft="15dp">
+			<TextView android:id="@+id/tVel" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/tVelUlt"
+				style="@style/titulo" />
+
+			<TextView android:id="@+id/rVelUlt" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="0"
+				style="@style/resultado"	/>
+		</LinearLayout>
+		
+	</LinearLayout>
+
+	<TextView android:id="@+id/creditos" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/creditos"
+		android:textColor="#777" android:textSize="10dp" android:gravity="center_horizontal"/>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="titulo" parent="@android:style/TextAppearance.Large">
+		<item name="android:textStyle">bold</item>
+		<item name="android:shadowColor">#99000000</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowDy">1.0</item>
+		<item name="android:shadowRadius">0.5</item>
+	</style>
+
+	<style name="resultado" parent="@android:style/TextAppearance.Large">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#FE5F35</item>
+		<item name="android:shadowColor">#99000000</item>
+		<item name="android:shadowDx">1.0</item>
+		<item name="android:shadowDy">1.0</item>
+		<item name="android:shadowRadius">0.5</item>
+		<item name="android:layout_marginLeft">15dp</item>
+	</style>
+</resources>
